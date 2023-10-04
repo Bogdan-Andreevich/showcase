@@ -1,0 +1,186 @@
+2021-02-03 16:40:56 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  rename(C:\xampp\htdocs\opencart-3.0.3.7\system\storage\cache\template\8e\8ed56BE.tmp,C:/xampp/htdocs/opencart-3.0.3.7/system/storage/cache/template/8e/8edb4e13672148a4bfb8122120a41208f54697d1edf35b52dbf811fe4899533b.php): Access is denied (code: 5) in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 65
+2021-02-04 11:06:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2023-10-04 11:28:21 - PHP Warning:  filesize(): stat failed for C:/OSPanel/domains/showcaseshop.ua/system/storage/cache/cache.store.1696422501 in C:\OSPanel\domains\showcaseshop.ua\system\library\cache\file.php on line 32
+2023-10-04 11:28:21 - PHP Warning:  fread(): Length parameter must be greater than 0 in C:\OSPanel\domains\showcaseshop.ua\system\library\cache\file.php on line 32
+2023-10-04 11:35:40 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:35:40 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:35:40 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:35:59 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:35:59 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:35:59 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:01 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:36 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:36 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:36:36 - PHP Notice:  Undefined index: you_save in C:\OSPanel\domains\showcaseshop.ua\catalog\controller\extension\module\oct_slideshow_plus.php on line 154
+2023-10-04 11:42:36 - PHP Warning:  imagecreatefrompng(): gd-png: libpng warning: Interlace handling should be turned on when using png_read_image in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:18 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:18 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:08:18 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:08:18 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:18 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:08:18 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:08:18 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:18 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:08:18 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:08:28 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:28 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:08:28 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:08:28 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:28 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:08:28 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:08:28 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:28 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:08:28 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:08:28 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:08:28 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:08:28 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:09:35 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:09:35 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:09:35 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:10:47 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:10:47 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:10:47 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:10:57 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:10:57 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:10:57 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:11:09 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:11:09 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:11:09 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:11:09 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:11:09 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:11:09 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:11:09 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:11:09 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:11:09 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:11:09 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:11:09 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:11:09 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:12 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:12 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:12 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:13 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:13 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:13 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:13 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:13 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:13 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:13 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:13 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:13 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:14:13 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:14:13 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:14:13 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:17:15 - PHP Warning:  imagecreatefrompng() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 45
+2023-10-04 12:17:15 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:17:15 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:17:40 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:17:40 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:17:40 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:17:40 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:17:40 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:17:40 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:17:40 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:17:40 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:17:40 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:17:46 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:17:46 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:17:46 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
+2023-10-04 12:19:31 - PHP Warning:  imagecreatefromjpeg() expects exactly 1 parameter, 2 given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 47
+2023-10-04 12:19:31 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 196
+2023-10-04 12:19:31 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in C:\OSPanel\domains\showcaseshop.ua\system\library\image.php on line 197
