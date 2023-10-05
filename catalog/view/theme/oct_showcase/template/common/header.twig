@@ -202,7 +202,21 @@ $('#oct-infobar-btn').on('click', function () {
 			    {{ currency }}
             {% endif %}
         </div>
+
+        {% if oct_showcase_data.socials is defined and oct_showcase_data.socials is not empty %}
+            <div class="">
+                <div class="sc-footer-socials-box d-flex align-items-center justify-content-center justify-content-xl-start">
+                    {% for social in oct_showcase_data.socials %}
+                        <a rel="noopener noreferrer" href="{{ (social.link == "#" or social.link is empty) ? 'javascript:;' : social.link }}" class="sc-footer-socials-item sc-footer-socials-item-{{ social.icone|replace({'fa ': "", "fab " : "", "far " : "", "fas " : ""}) }} d-flex align-items-center justify-content-center" target="_blank">
+                            <i class="{{ social.icone }}"></i>
+                            {{ social.link }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
 	</div>
+
 </nav>
 <header class="header py-2{% if oct_expand_menu is defined and oct_expand_menu %} with-slideshow{% endif %}">
     <div class="container-fluid container-xl position-relative">

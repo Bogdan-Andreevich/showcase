@@ -1,3 +1,9 @@
+<IfModule mod_rewrite.c>
+    # Redirect everything to public/index.php
+    RewriteCond %{REQUEST_URI} (image)/(.+)$
+    RewriteRule ^ %1/%2 [L]
+</IfModule>
+
 # 1.To use URL Alias you need to be running apache with mod_rewrite enabled.
 
 # 2. In your opencart directory rename htaccess.txt to .htaccess.

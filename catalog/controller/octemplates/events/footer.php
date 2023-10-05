@@ -114,7 +114,7 @@ class ControllerOCTemplatesEventsFooter extends Controller {
 
         $data['informations'] = [];
 
-        if (isset($oct_showcase_data['footer_links']) && !empty($oct_showcase_data['footer_links'])) {
+        if (isset($oct_showcase_data['footer_links']) && !empty($oct_showcase_data['footer_links']) && isset($oct_showcase_data['footer_links'][4])) {
             $language_id = (int)$this->config->get('config_language_id');
 
             foreach ($oct_showcase_data['footer_links'] as $footer_link) {

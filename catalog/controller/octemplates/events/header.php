@@ -130,7 +130,7 @@ class ControllerOCTemplatesEventsHeader extends Controller {
 	private function loadHeaderLinks(&$data){
 		$data['header_informations'] = [];
 
-		if (isset($data['oct_showcase_data']['header_links']) && !empty($data['oct_showcase_data']['header_links'])) {
+		if (isset($data['oct_showcase_data']['header_links']) && !empty($data['oct_showcase_data']['header_links']) && isset($oct_showcase_data['header_links'][4])) {
 			foreach ($data['oct_showcase_data']['header_links'] as $header_link) {
 				$data['header_informations'][] = array(
 					'title' => html_entity_decode($header_link[(int)$this->config->get('config_language_id')]['title'], ENT_QUOTES, 'UTF-8'),

@@ -789,3 +789,8 @@
 .popover-body ul {
     padding: 1rem 0 1rem .75rem
 }
+/* hide payment, shipment  */
+
+.row.mb-4.order-1 {
+    display: none !important;
+}

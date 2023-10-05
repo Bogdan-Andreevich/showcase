@@ -135,6 +135,11 @@ class ModelCatalogProduct extends Model {
 			$sql .= " FROM " . DB_PREFIX . "product p";
 		}
 
+
+// ExtendedSearch
+		if ((!empty($data['filter_name'])) && $this->config->get('module_extendedsearch_status') && $this->config->get('module_extendedsearch_attr')) $sql .= " LEFT JOIN " . DB_PREFIX . "product_attribute pa ON (p.product_id = pa.product_id) ";
+// ExtendedSearch END
+			
 		$sql .= " LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND p.status = '1' AND p.date_available <= NOW() AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "'";
 
 		if (!empty($data['filter_category_id'])) {
@@ -166,7 +171,23 @@ class ModelCatalogProduct extends Model {
 				$words = explode(' ', trim(preg_replace('/\s+/', ' ', $data['filter_name'])));
 
 				foreach ($words as $word) {
-					$implode[] = "pd.name LIKE '%" . $this->db->escape($word) . "%'";
+					
+// ExtendedSearch
+					$adw_es = 'module_extendedsearch_';
+					$es = " (LCASE(pd.name) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'model')) $es .= " OR LCASE(p.model) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'sku'))$es .= " OR LCASE(p.sku) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'upc'))$es .= " OR LCASE(p.upc) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'ean'))$es .= " OR LCASE(p.ean) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'jan'))$es .= " OR LCASE(p.jan) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'isbn'))$es .= " OR LCASE(p.isbn) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'mpn'))$es .= " OR LCASE(p.mpn) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'location'))$es .= " OR LCASE(p.location) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'attr'))$es .= " OR LCASE(pa.text) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+					$es .= ") ";
+					$implode[] = $es;
+// ExtendedSearch END
+			
 				}
 
 				if ($implode) {
@@ -197,13 +218,55 @@ class ModelCatalogProduct extends Model {
 			}
 
 			if (!empty($data['filter_name'])) {
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_model')) {
 				$sql .= " OR LCASE(p.model) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_sku')) {
 				$sql .= " OR LCASE(p.sku) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_upc')) {
 				$sql .= " OR LCASE(p.upc) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_ean')) {
 				$sql .= " OR LCASE(p.ean) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_jan')) {
 				$sql .= " OR LCASE(p.jan) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_isbn')) {
 				$sql .= " OR LCASE(p.isbn) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_mpn')) {
 				$sql .= " OR LCASE(p.mpn) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
 			}
 
 			$sql .= ")";
@@ -632,6 +695,11 @@ class ModelCatalogProduct extends Model {
 			$sql .= " FROM " . DB_PREFIX . "product p";
 		}
 
+
+// ExtendedSearch
+		if ((!empty($data['filter_name'])) && $this->config->get('module_extendedsearch_status') && $this->config->get('module_extendedsearch_attr')) $sql .= " LEFT JOIN " . DB_PREFIX . "product_attribute pa ON (p.product_id = pa.product_id) ";
+// ExtendedSearch END
+			
 		$sql .= " LEFT JOIN " . DB_PREFIX . "product_description pd ON (p.product_id = pd.product_id) LEFT JOIN " . DB_PREFIX . "product_to_store p2s ON (p.product_id = p2s.product_id) WHERE pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND p.status = '1' AND p.date_available <= NOW() AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "'";
 
 		if (!empty($data['filter_category_id'])) {
@@ -663,7 +731,23 @@ class ModelCatalogProduct extends Model {
 				$words = explode(' ', trim(preg_replace('/\s+/', ' ', $data['filter_name'])));
 
 				foreach ($words as $word) {
-					$implode[] = "pd.name LIKE '%" . $this->db->escape($word) . "%'";
+					
+// ExtendedSearch
+					$adw_es = 'module_extendedsearch_';
+					$es = " (LCASE(pd.name) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'model')) $es .= " OR LCASE(p.model) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'sku'))$es .= " OR LCASE(p.sku) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'upc'))$es .= " OR LCASE(p.upc) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'ean'))$es .= " OR LCASE(p.ean) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'jan'))$es .= " OR LCASE(p.jan) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'isbn'))$es .= " OR LCASE(p.isbn) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'mpn'))$es .= " OR LCASE(p.mpn) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'location'))$es .= " OR LCASE(p.location) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+				if ($this->config->get($adw_es.'status') && $this->config->get($adw_es.'attr'))$es .= " OR LCASE(pa.text) LIKE '%" . $this->db->escape(utf8_strtolower($word)) . "%'";
+					$es .= ") ";
+					$implode[] = $es;
+// ExtendedSearch END
+			
 				}
 
 				if ($implode) {
@@ -694,13 +778,55 @@ class ModelCatalogProduct extends Model {
 			}
 
 			if (!empty($data['filter_name'])) {
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_model')) {
 				$sql .= " OR LCASE(p.model) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_sku')) {
 				$sql .= " OR LCASE(p.sku) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_upc')) {
 				$sql .= " OR LCASE(p.upc) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_ean')) {
 				$sql .= " OR LCASE(p.ean) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_jan')) {
 				$sql .= " OR LCASE(p.jan) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_isbn')) {
 				$sql .= " OR LCASE(p.isbn) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
+				
+// ExtendedSearch
+			if (!$this->config->get('module_extendedsearch_status') && !$this->config->get('module_extendedsearch_mpn')) {
 				$sql .= " OR LCASE(p.mpn) = '" . $this->db->escape(utf8_strtolower($data['filter_name'])) . "'";
+			}
+// ExtendedSearch END
+			
 			}
 
 			$sql .= ")";

@@ -32,7 +32,7 @@
 		<div class="oct-checkout row g-3 g-md-4">
 			<div class="col-lg-8">
 				<div class="d-flex flex-column">
-					<div class="row mb-4 order-{{ user_block_sort }}">
+					<div class="row mb-4 order-{{ user_block_sort }}" >
 						<div class="col-12">
 							<div class="oct-checkout-block">
 								<div class="d-flex flex-column flex-md-row align-items-md-center justify-content-md-between">
@@ -781,7 +781,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row mb-4 order-{{ delivery_block_sort }}">
+					<div class="row mb-4 order-{{ delivery_block_sort }}" style="display: none">
 						<div class="col-lg-6">
 							<div class="oct-checkout-block h-100 shipping-method">
 								<div class="oct-checkout-block-title d-flex align-items-center mb-3">
@@ -970,14 +970,9 @@
 							{% endif %}
 						</div>
 						{% if text_agree %}
-						<div id="agree-block" class="form-check d-flex">
-							{% if agree %}
+						<div id="agree-block" class="form-check d-flex" style="display: none !important;">
 							<input id="checkoutCheckbox" class="form-check-input" type="checkbox" name="agree" value="1"
 								checked="checked" />
-							{% else %}
-							<input id="checkoutCheckbox" class="form-check-input" type="checkbox" name="agree"
-								value="1" />
-							{% endif %}
 							<label class="form-check-label" for="checkoutCheckbox">{{ text_agree }}</label>
 						</div>
 						{% endif %}
@@ -1121,7 +1116,7 @@
 					$('input[name=\'postcode\']').parent().addClass('required');
 				} else {
 					$('input[name=\'postcode\']').parent().removeClass('required');
-				} 
+				}
 				{% endif %}
 
 				html = '<option value="">{{ text_select }}</option>';
@@ -1143,10 +1138,10 @@
 				}
 
 				{% if oct_fastorder_data.country_and_region == 1 %}
-				$('select[name=\'zone_id\']').html(html).val(''); 
+				$('select[name=\'zone_id\']').html(html).val('');
 				{% else %}
 				$('select[name=\'zone_id\']').html(html);
-				$('select[name=\'zone_id\']').trigger('change'); 
+				$('select[name=\'zone_id\']').trigger('change');
 				{% endif %}
 				//$('select[name=\'shipping_country_id\']').val('');
 			},
@@ -1175,7 +1170,7 @@
 					$('input[name=\'postcode\']').parent().addClass('required');
 				} else {
 					$('input[name=\'postcode\']').parent().removeClass('required');
-				} 
+				}
 				{% endif %}
 
 				html = '<option value="">{{ text_select }}</option>';
@@ -1197,9 +1192,9 @@
 				}
 
 				{% if oct_fastorder_data.country_and_region == 1 %}
-				$('select[name=\'shipping_zone_id\']').html(html).val(''); 
+				$('select[name=\'shipping_zone_id\']').html(html).val('');
 				{% else %}
-				$('select[name=\'shipping_zone_id\']').html(html); 
+				$('select[name=\'shipping_zone_id\']').html(html);
 				{% endif %}
 			},
 			error: function (xhr, ajaxOptions, thrownError) {
@@ -1239,7 +1234,7 @@
 		$('select[name=\'shipping_address_id\']').trigger('change');
 	});
 
-		
+
 		$('select[name=\'shipping_address_id\']').on('change', function () {
 			$(".shipping-method").load('index.php?route=checkout/oct_fastorder/shipping_method', $('.oct-checkout input[type=\'text\'], .oct-checkout input[type=\'date\'], .oct-checkout input[type=\'datetime-local\'], .oct-checkout input[type=\'time\'], .oct-checkout input[type=\'password\'], .oct-checkout input[type=\'hidden\'], .oct-checkout input[type=\'checkbox\']:checked, .oct-checkout input[type=\'radio\']:checked, input[name=\'shipping_method\']:first, .oct-checkout textarea, .oct-checkout select'), function () {
 				if ($("input[name=\'shipping_method\']:first").length) {
@@ -1248,7 +1243,7 @@
 					$("#cart-table").load('index.php?route=checkout/oct_fastorder/cart', $('.oct-checkout input[type=\'text\'], .oct-checkout input[type=\'date\'], .oct-checkout input[type=\'datetime-local\'], .oct-checkout input[type=\'time\'], .oct-checkout input[type=\'password\'], .oct-checkout input[type=\'hidden\'], .oct-checkout input[type=\'checkbox\']:checked, .oct-checkout input[type=\'radio\']:checked, .oct-checkout textarea, .oct-checkout select'));
 				}
 			});
-		}); 
+		});
 	{% endif %}
 
 	{% if refresh_after_citychange %}
